@@ -1,12 +1,9 @@
-# 🥞 Pancake UI Kit
+# 🥞 bubo UI Kit
 
 ## Install
 
-`yarn add @pancakeswap-libs/uikit`
+`yarn add bubo-swap-uikit`
 
-## Documentation
-
-If you want to use components from the UIkit, check the [Storybook documentation](https://pancakeswap.github.io/pancake-uikit/)
 
 ## Developing
 
