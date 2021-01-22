@@ -1,6 +1,6 @@
 {
   "name": "bubo-swap-uikit",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "Set of UI components for bubo projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
