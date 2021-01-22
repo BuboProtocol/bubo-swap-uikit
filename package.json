@@ -1,6 +1,6 @@
 {
   "name": "bubo-swap-uikit",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Set of UI components for bubo projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -17,7 +17,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
-    "release": "yarn build && np"
+    "release": "yarn build",
+    "prepublishOnly": "yarn build"
   },
   "husky": {
     "hooks": {
@@ -57,8 +58,8 @@
     "jest-styled-components": "^7.0.3",
     "np": "^6.5.0",
     "prettier": "^2.1.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-is": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "rollup": "^2.35.0",
@@ -77,7 +78,9 @@
   "dependencies": {
     "@types/lodash": "^4.14.162",
     "@types/styled-system": "^5.1.10",
+    "global": "^4.4.0",
     "lodash": "^4.17.20",
+    "storybook": "^6.1.14",
     "styled-system": "^5.1.5"
   }
 }
